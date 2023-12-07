@@ -1,0 +1,472 @@
+@prefix : <http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix InstitutoDefensaPersonal: <http://www.semanticweb.org/stwar/ontologies/2023/4/InstitutoDefensaPersonal#> .
+@base <http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP/> .
+
+<http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Cuenta_con
+:Cuenta_con rdf:type owl:ObjectProperty ;
+            rdfs:domain :Estilo ;
+            rdfs:range :Niveles .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Enseña
+:Enseña rdf:type owl:ObjectProperty ;
+        owl:inverseOf :Es_Enseñado_Por ;
+        rdfs:domain :Maestro ;
+        rdfs:range :Estilo .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Es_Enseñado_Por
+:Es_Enseñado_Por rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Estilo ;
+                 rdfs:range :Maestro .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Es_Practicado_Por
+:Es_Practicado_Por rdf:type owl:ObjectProperty ;
+                   owl:inverseOf :Practica ;
+                   rdfs:domain :Estilo ;
+                   rdfs:range :Alumno .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Practica
+:Practica rdf:type owl:ObjectProperty ;
+          rdfs:domain :Alumno ;
+          rdfs:range :Estilo .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#SeEnfocaEn
+:SeEnfocaEn rdf:type owl:ObjectProperty ;
+            owl:inverseOf :Tiene_Un ;
+            rdfs:domain :Estilo ;
+            rdfs:range :Categoria .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Tiene_Un
+:Tiene_Un rdf:type owl:ObjectProperty ;
+          rdfs:domain :Categoria ;
+          rdfs:range :Estilo .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Tienen
+:Tienen rdf:type owl:ObjectProperty ;
+        rdfs:domain :Estilo ;
+        rdfs:range :Metodos .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Apellido
+:Apellido rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Persona ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Biografia
+:Biografia rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Maestro ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#CatNombre
+:CatNombre rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Categoria ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Edad
+:Edad rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Persona ;
+      rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#EstiloDescripcion
+:EstiloDescripcion rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Estilo ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#EstiloNombre
+:EstiloNombre rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Estilo ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodosnom
+:Metodosnom rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Metodos ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Nivelesnom
+:Nivelesnom rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Niveles ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Nombre
+:Nombre rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Persona ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#NumIdentificacion
+:NumIdentificacion rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Persona ;
+                   rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Sexo
+:Sexo rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Persona ;
+      rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno
+:Alumno rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :Practica ;
+                              owl:someValuesFrom :Estilo
+                            ] ;
+        rdfs:subClassOf :Persona .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria
+:Categoria rdf:type owl:Class ;
+           rdfs:subClassOf :Instituto .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo
+:Estilo rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :Cuenta_con ;
+                              owl:someValuesFrom :Niveles
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :Es_Enseñado_Por ;
+                              owl:someValuesFrom :Maestro
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :SeEnfocaEn ;
+                              owl:someValuesFrom :Categoria
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :Tienen ;
+                              owl:someValuesFrom :Metodos
+                            ] ;
+        rdfs:subClassOf :Instituto .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Instituto
+:Instituto rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro
+:Maestro rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :Enseña ;
+                               owl:someValuesFrom :Estilo
+                             ] ;
+         rdfs:subClassOf :Persona .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos
+:Metodos rdf:type owl:Class ;
+         rdfs:subClassOf :Instituto .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles
+:Niveles rdf:type owl:Class ;
+         rdfs:subClassOf :Instituto .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona
+:Persona rdf:type owl:Class ;
+         rdfs:subClassOf :Instituto .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met01
+:Met01 rdf:type owl:NamedIndividual ,
+                :Estilo ,
+                :Metodos ;
+       :Tienen :est01 ,
+               :est02 ,
+               :est03 ,
+               :est04 ,
+               :est05 ;
+       :Metodosnom "Clase teorica" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met02
+:Met02 rdf:type owl:NamedIndividual ,
+                :Estilo ,
+                :Metodos ;
+       :Tienen :est01 ,
+               :est02 ,
+               :est03 ,
+               :est04 ,
+               :est05 ;
+       :Metodosnom "Clase practica" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met03
+:Met03 rdf:type owl:NamedIndividual ,
+                :Estilo ,
+                :Metodos ;
+       :Tienen :est02 ,
+               :est04 ;
+       :Metodosnom "Clase enfrentamiento o simulacros" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum001
+:alum001 rdf:type owl:NamedIndividual ,
+                  :Alumno ;
+         :Practica :est03 ;
+         :Apellido "Sanchez" ;
+         :Edad "36"^^xsd:int ;
+         :Nombre "Andres" ;
+         :NumIdentificacion "1117875965"^^xsd:int ;
+         :Sexo "Masculino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum002
+:alum002 rdf:type owl:NamedIndividual ,
+                  :Alumno ;
+         :Practica :est04 ;
+         :Apellido "Lopez" ;
+         :Edad "25"^^xsd:int ;
+         :Nombre "Andrea" ;
+         :NumIdentificacion "1119472642"^^xsd:int ;
+         :Sexo "Femenino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum003
+:alum003 rdf:type owl:NamedIndividual ,
+                  :Alumno ;
+         :Practica :est05 ;
+         :Apellido "Martinez Cadavid" ;
+         :Edad "28"^^xsd:int ;
+         :Nombre "Miguel" ;
+         :NumIdentificacion "1005478567"^^xsd:int ;
+         :Sexo "Masculino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum004
+:alum004 rdf:type owl:NamedIndividual ,
+                  :Alumno ;
+         :Practica :est05 ;
+         :Apellido "Cardona Muriel" ;
+         :Edad "22"^^xsd:int ;
+         :Nombre "Felipe" ;
+         :NumIdentificacion "1006875942"^^xsd:int ;
+         :Sexo "Masculino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum005
+:alum005 rdf:type owl:NamedIndividual ,
+                  :Alumno ;
+         :Practica :est03 ;
+         :Apellido "Molina Pacheco" ;
+         :Edad "28"^^xsd:int ;
+         :Nombre "Fernando" ;
+         :NumIdentificacion "1117856423"^^xsd:int ;
+         :Sexo "Masculino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum006
+:alum006 rdf:type owl:NamedIndividual ,
+                  :Alumno ;
+         :Practica :est01 ;
+         :Apellido "Rojas Villa" ;
+         :Edad "20"^^xsd:int ;
+         :Nombre "Jibran" ;
+         :NumIdentificacion "1006547896"^^xsd:int ;
+         :Sexo "Masculino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum007
+:alum007 rdf:type owl:NamedIndividual ,
+                  :Alumno ;
+         :Practica :est02 ;
+         :Apellido "Orozco Galeano" ;
+         :Edad "21"^^xsd:int ;
+         :Nombre "Paula" ;
+         :NumIdentificacion "1042578963"^^xsd:int ;
+         :Sexo "Femenino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum008
+:alum008 rdf:type owl:NamedIndividual ,
+                  :Alumno ;
+         :Practica :est01 ;
+         :Apellido "Perdomo Lara" ;
+         :Edad "24"^^xsd:int ;
+         :Nombre "Maria" ;
+         :NumIdentificacion "1007683942"^^xsd:int ;
+         :Sexo "Femenino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat001
+:cat001 rdf:type owl:NamedIndividual ,
+                 :Categoria ;
+        :Tiene_Un :est02 ,
+                  :est04 ;
+        :CatNombre "Ataque" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat002
+:cat002 rdf:type owl:NamedIndividual ,
+                 :Categoria ;
+        :Tiene_Un :est01 ,
+                  :est03 ,
+                  :est05 ;
+        :CatNombre "Defensa" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01
+:est01 rdf:type owl:NamedIndividual ,
+                :Estilo ,
+                :Metodos ,
+                :Niveles ;
+       :Es_Enseñado_Por :maes001 ;
+       :Es_Practicado_Por :alum006 ,
+                          :alum008 ;
+       :SeEnfocaEn :cat002 ;
+       :EstiloDescripcion "El Krav Maga es un arte marcial de uso militar, y su único objetivo es terminar la pelea rápidamente. Por muchas personas, es considerado el mejor deporte de defensa personal." ;
+       :EstiloNombre "Krav Maga" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02
+:est02 rdf:type owl:NamedIndividual ,
+                :Estilo ,
+                :Metodos ,
+                :Niveles ;
+       :Es_Enseñado_Por :maes002 ;
+       :Es_Practicado_Por :alum007 ;
+       :SeEnfocaEn :cat001 ;
+       :EstiloDescripcion "El Muay Thai es considerado como uno de los deportes de contacto más agresivos que hay. Sus técnicas incluyen patadas, rodillas, codos, puños, clinch, barridos y proyecciones usando la fuerza bruta. Al practicarlo, desarrollas la capacidad de reaccionar rápida y efectivamente a los ataques de tu oponente y devolver fuertes contragolpes." ;
+       :EstiloNombre "Muay Thai" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03
+:est03 rdf:type owl:NamedIndividual ,
+                :Estilo ,
+                :Metodos ,
+                :Niveles ;
+       :Es_Enseñado_Por :maes001 ;
+       :Es_Practicado_Por :alum001 ,
+                          :alum005 ;
+       :SeEnfocaEn :cat002 ;
+       :EstiloDescripcion "El Jiu-Jitsu Brasilenio es un excelente deporte de defensa personal. Requiere de agilidad, rapidez y destreza para realizar movimientos que, sin siquiera darse cuenta, tu oponente se encontrará en el suelo recibiendo una llave de sumisión y pidiéndote perdón." ;
+       :EstiloNombre "Jiu-Jitsu Brasilenio" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04
+:est04 rdf:type owl:NamedIndividual ,
+                :Estilo ,
+                :Metodos ,
+                :Niveles ;
+       :Es_Enseñado_Por :maes002 ;
+       :Es_Practicado_Por :alum002 ;
+       :SeEnfocaEn :cat001 ;
+       :EstiloDescripcion "En el Kick Boxing se mezclan técnicas de otras disciplinas (como el muay thai y el karate) con el boxeo occidental, generando un deporte único que contiene lo mejor de ambos mundos. Las patadas y golpes del kick boxing son superiores a las de la mayoría de artes marciales; razón por la que para practicarlo se deben usar guantes, cascos, tobilleras, protectores de pecho (para mujeres), coquilla, guantillas, vendas, etc." ;
+       :EstiloNombre "Kick Boxing" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05
+:est05 rdf:type owl:NamedIndividual ,
+                :Estilo ,
+                :Metodos ,
+                :Niveles ;
+       :Es_Enseñado_Por :maes001 ;
+       :Es_Practicado_Por :alum003 ,
+                          :alum004 ;
+       :SeEnfocaEn :cat002 ;
+       :EstiloDescripcion "El Karate como defensa personal tiene muchos puntos a favor, puesto que en cuanto a variedad de técnicas es de los más completos de las artes antiguas. Los golpes de un karateka son secos y muy potentes, pues en la práctica aprenden a transmitir la energía de movimiento de una parte del cuerpo a otro, y mantener rígido el resto del cuerpo para absorber la fuerza de reacción y no perder el equilibrio." ;
+       :EstiloNombre "Karate" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes001
+:maes001 rdf:type owl:NamedIndividual ,
+                  :Maestro ;
+         :Enseña :est01 ,
+                 :est03 ,
+                 :est05 ;
+         :Apellido "Rojas Jimenez" ;
+         :Biografia "Campeón del torneo anual de Karate, representante del instituto en Jiu-Jitsu y experto en defensa personal." ;
+         :Edad "32"^^xsd:int ;
+         :Nombre "Edwar" ;
+         :NumIdentificacion "1006783939"^^xsd:int ;
+         :Sexo "Masculino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes002
+:maes002 rdf:type owl:NamedIndividual ,
+                  :Maestro ;
+         :Enseña :est02 ,
+                 :est04 ;
+         :Apellido "Hernandez Marin" ;
+         :Biografia "Maestro Internacional del deporte en Kick Boxing. Campeón Internacional en Muay Thai y maestro del deporte en Combate cuerpo a cuerpo​." ;
+         :Edad "29"^^xsd:int ;
+         :Nombre "Pedro" ;
+         :NumIdentificacion "1005785964"^^xsd:int ;
+         :Sexo "Masculino" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel1
+:nivel1 rdf:type owl:NamedIndividual ,
+                 :Estilo ,
+                 :Niveles ;
+        :Cuenta_con :est01 ,
+                    :est02 ,
+                    :est03 ,
+                    :est04 ,
+                    :est05 ;
+        :Nivelesnom "principiante" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel2
+:nivel2 rdf:type owl:NamedIndividual ,
+                 :Estilo ,
+                 :Niveles ;
+        :Cuenta_con :est01 ,
+                    :est02 ,
+                    :est03 ,
+                    :est04 ,
+                    :est05 ;
+        :Nivelesnom "intermedio" .
+
+
+###  http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel3
+:nivel3 rdf:type owl:NamedIndividual ,
+                 :Estilo ,
+                 :Niveles ;
+        :Cuenta_con :est01 ,
+                    :est02 ,
+                    :est03 ,
+                    :est04 ,
+                    :est05 ;
+        :Nivelesnom "avanzado" .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

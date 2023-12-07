@@ -1,0 +1,112 @@
+﻿@model IEnumerable<proyecto.Models.Maestro>
+
+@{
+    ViewBag.Title = "Maestro";
+}
+
+<div class="container text-center">
+    <h1 class="mt-5">MAESTROS</h1>
+</div>
+
+@foreach (var item in Model)
+{
+    if (item.Nombre == "Edwar")
+    {
+        <div class="card" style="border: solid; margin-top: 10px;" itemscope itemtype="http://schema.org/Product">
+            <div class="d-flex justify-content-center">
+                <img src="~/img/GSP.jpg" class="card-img-top img-fluid" style="max-width: 450px; max-height: 500px; margin-top: 5px;" alt="...">
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr style="background-color: #FF0000;">
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Nombre</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Apellido</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Edad</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Biografia</h2>
+                            </div>
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Apellido)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Edad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Biografia)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+
+    if (item.Nombre == "Pedro")
+    {
+        <div class="card" style="border: solid; margin-top: 10px;" itemscope itemtype="http://schema.org/Product">
+            <div class="d-flex justify-content-center">
+                <img src="~/img/Kimbo.jpg" class="card-img-top img-fluid" style="max-width: 450px; max-height: 500px; margin-top: 5px;" alt="...">
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr style="background-color: #FF0000;">
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Nombre</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Apellido</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Edad</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Biografia</h2>
+                            </div>
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Apellido)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Edad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Biografia)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+}

@@ -1,0 +1,524 @@
+C:\Users\isark\source\repos\proyecto\proyecto\bin\proyecto.dll.config
+C:\Users\isark\source\repos\proyecto\proyecto\bin\proyecto.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\proyecto.pdb
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\csc.exe
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\csc.exe.config
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\csc.rsp
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\csi.exe
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\csi.exe.config
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\csi.rsp
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.AppContext.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Console.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.IO.Compression.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Net.Http.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Net.Sockets.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.ValueTuple.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Xml.XPath.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\vbc.exe
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\vbc.exe.config
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\vbc.rsp
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe
+C:\Users\isark\source\repos\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\isark\source\repos\proyecto\proyecto\bin\Antlr3.Runtime.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\dotNetRDF.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\HtmlAgilityPack.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\Newtonsoft.Json.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.Helpers.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.Mvc.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.Optimization.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.Razor.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.WebPages.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\VDS.Common.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\WebGrease.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\dotNetRDF.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\HtmlAgilityPack.pdb
+C:\Users\isark\source\repos\proyecto\proyecto\bin\HtmlAgilityPack.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\Newtonsoft.Json.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.Helpers.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.Mvc.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.Optimization.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.Razor.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.WebPages.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\VDS.Common.pdb
+C:\Users\isark\source\repos\proyecto\proyecto\bin\VDS.Common.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\Antlr3.Runtime.pdb
+C:\Users\isark\source\repos\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\isark\source\repos\proyecto\proyecto\bin\es\System.Web.Helpers.resources.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\es\System.Web.Mvc.resources.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\es\System.Web.Optimization.resources.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\es\System.Web.Razor.resources.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\es\System.Web.WebPages.resources.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\isark\source\repos\proyecto\proyecto\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\isark\source\repos\proyecto\proyecto\obj\Debug\proyecto.csproj.AssemblyReference.cache
+C:\Users\isark\source\repos\proyecto\proyecto\obj\Debug\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\isark\source\repos\proyecto\proyecto\obj\Debug\proyecto.csproj.CopyComplete
+C:\Users\isark\source\repos\proyecto\proyecto\obj\Debug\proyecto.dll
+C:\Users\isark\source\repos\proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.dll.config
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.pdb
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.exe
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.exe.config
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.rsp
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.exe
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.exe.config
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.rsp
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.AppContext.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Console.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.Compression.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Net.Http.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Net.Sockets.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.ValueTuple.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XPath.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.exe
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.exe.config
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.rsp
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Antlr3.Runtime.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\dotNetRDF.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Newtonsoft.Json.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Helpers.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Mvc.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Optimization.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Razor.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\WebGrease.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\dotNetRDF.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.pdb
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Newtonsoft.Json.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Helpers.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Mvc.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Optimization.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Razor.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.pdb
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Antlr3.Runtime.pdb
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Helpers.resources.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Mvc.resources.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Optimization.resources.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Razor.resources.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.resources.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.AssemblyReference.cache
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.CopyComplete
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Security.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Owin.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Security.xml
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\stwar\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\stroj\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.dll
+C:\Users\stroj\OneDrive\Escritorio\TRABAJOS_U\SEMESTRE_9\GESTION CONOCIMIENTO\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.dll.config
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.pdb
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.exe
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.exe.config
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.rsp
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.exe
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.exe.config
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.rsp
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.AppContext.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Console.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.Compression.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Net.Http.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Net.Sockets.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.ValueTuple.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XPath.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.exe
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.exe.config
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.rsp
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Antlr3.Runtime.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\dotNetRDF.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Security.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Newtonsoft.Json.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Owin.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Helpers.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Mvc.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Optimization.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Razor.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\WebGrease.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\dotNetRDF.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.pdb
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Security.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Newtonsoft.Json.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Helpers.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Mvc.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Optimization.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Razor.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.pdb
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Antlr3.Runtime.pdb
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Helpers.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Mvc.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Optimization.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Razor.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.AssemblyReference.cache
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.CopyComplete
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.dll
+C:\Users\leidi\OneDrive\Escritorio\PROYECTO FINAL\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.dll.config
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.pdb
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.exe
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.exe.config
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.rsp
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.exe
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.exe.config
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.rsp
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.AppContext.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Console.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.Compression.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Net.Http.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Net.Sockets.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.ValueTuple.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XPath.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.exe
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.exe.config
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.rsp
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Antlr3.Runtime.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\dotNetRDF.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Security.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Newtonsoft.Json.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Owin.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Helpers.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Mvc.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Optimization.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Razor.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\WebGrease.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\dotNetRDF.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.pdb
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Security.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Newtonsoft.Json.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Helpers.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Mvc.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Optimization.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Razor.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.pdb
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Antlr3.Runtime.pdb
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Helpers.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Mvc.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Optimization.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Razor.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.AssemblyReference.cache
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.CopyComplete
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.dll
+C:\Users\leidi\OneDrive\Escritorio\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.dll.config
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\proyecto.pdb
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.exe
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.exe.config
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csc.rsp
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.exe
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.exe.config
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\csi.rsp
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.AppContext.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Console.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.Compression.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Net.Http.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Net.Sockets.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.ValueTuple.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XPath.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.exe
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.exe.config
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\vbc.rsp
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Antlr3.Runtime.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\dotNetRDF.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Security.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Newtonsoft.Json.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Owin.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Helpers.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Mvc.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Optimization.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Razor.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\WebGrease.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\dotNetRDF.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.pdb
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\HtmlAgilityPack.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.Owin.Security.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Newtonsoft.Json.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Helpers.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Mvc.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Optimization.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.Razor.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.pdb
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\VDS.Common.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Antlr3.Runtime.pdb
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Helpers.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Mvc.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Optimization.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.Razor.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.AssemblyReference.cache
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.csproj.CopyComplete
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.dll
+C:\Users\leidi\OneDrive\Escritorio\Proyecto GC\APLICACION WEB SEMANTICA\proyecto\proyecto\obj\Debug\proyecto.pdb

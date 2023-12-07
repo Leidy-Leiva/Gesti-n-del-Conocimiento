@@ -1,0 +1,244 @@
+﻿@model IEnumerable<proyecto.Models.Estilo>
+
+@{
+    ViewBag.Title = "Catalogo";
+}
+
+
+
+<div class="container text-center">
+    <h1 class="mt-5">Estilos de defensa personal</h1>
+</div>
+
+@foreach (var item in Model)
+{
+    if (item.NomEstilo == "Krav Maga")
+    {
+        <div class="card" style="border: solid; margin-top: 10px;" itemscope itemtype="http://schema.org/Product">
+            <div class="d-flex justify-content-center">
+                <img itemprop="image" src="~/img/Krav Maga.jpg" class="card-img-top img-fluid" style="max-width: 450px; max-height: 500px;" alt="...">
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr style="background-color: #FF0000;">
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Estilo</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Descripción</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <h2>Efectividad</h2>
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h3 itemprop="name">@Html.DisplayFor(modelItem => item.NomEstilo)</h3>
+                        </td>
+                        <td>
+                            <h3 itemprop="familyName">@Html.DisplayFor(modelItem => item.DesEstilo)</h3>
+                        </td>
+                        <td>
+                            <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                                <h3><span itemprop="ratingValue">Su efectividad al usarse en combate es </span> (<span itemprop="reviewCount">7</span>)</h3>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("DetalleEstilos", "Instituto", new {identificador = item.Identificador})" class="btn btn-primary">Detalles</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+    if (item.NomEstilo == "Muay Thai")
+    {
+        <div class="card" style="border: solid; margin-top: 10px;" itemscope itemtype="http://schema.org/Product">
+            <div class="d-flex justify-content-center">
+                <img src="~/img/Muay Thai.jpg" class="card-img-top img-fluid" style="max-width: 450px; max-height: 500px;" alt="..." itemprop="image">
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr style="background-color: #FF0000;">
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Estilo</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Descripción</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <h2>Efectividad</h2>
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h3 itemprop="name">@Html.DisplayFor(modelItem => item.NomEstilo)</h3>
+                        </td>
+                        <td>
+                            <h3 itemprop="familyName">@Html.DisplayFor(modelItem => item.DesEstilo)</h3>
+                        </td>
+                        <td>
+                            <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                                <h3><span itemprop="ratingValue">Su efectividad al usarse en combate es </span> (<span itemprop="reviewCount">7</span>)</h3>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("DetalleEstilos", "Instituto", new {identificador = item.Identificador})" class="btn btn-primary">Detalles</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+    if (item.NomEstilo == "Jiu-Jitsu Brasilenio")
+    {
+        <div class="card" style="border: solid; margin-top: 10px;" itemscope itemtype="http://schema.org/Product">
+            <div class="d-flex justify-content-center">
+                <img src="~/img/Jiu Jitsu.jpg" class="card-img-top img-fluid" style="max-width: 450px; max-height: 500px;" alt="..." itemprop="image">
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr style="background-color: #FF0000;">
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Estilo</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Descripción</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <h2>Efectividad</h2>
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h3 itemprop="name">@Html.DisplayFor(modelItem => item.NomEstilo)</h3>
+                        </td>
+                        <td>
+                            <h3 itemprop="familyName">@Html.DisplayFor(modelItem => item.DesEstilo)</h3>
+                        </td>
+                        <td>
+                            <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                                <h3><span itemprop="ratingValue">Su efectividad al usarse en combate es </span> (<span itemprop="reviewCount">7</span>)</h3>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("DetalleEstilos", "Instituto", new {identificador = item.Identificador})" class="btn btn-primary">Detalles</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+    if (item.NomEstilo == "Kick Boxing")
+    {
+        <div class="card" style="border: solid; margin-top: 10px;" itemscope itemtype="http://schema.org/Product">
+            <div class="d-flex justify-content-center">
+                <img src="~/img/Kick Boxing.jpg" class="card-img-top img-fluid" style="max-width: 450px; max-height: 500px;" alt="..." itemprop="image">
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr style="background-color: #FF0000;">
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Estilo</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Descripción</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <h2>Efectividad</h2>
+                        </th>
+                        <th>
+
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h3 itemprop="name">@Html.DisplayFor(modelItem => item.NomEstilo)</h3>
+                        </td>
+                        <td>
+                            <h3 itemprop="familyName">@Html.DisplayFor(modelItem => item.DesEstilo)</h3>
+                        </td>
+                        <td>
+                            <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                                <h3><span itemprop="ratingValue">Su efectividad al usarse en combate es </span> (<span itemprop="reviewCount">7</span>)</h3>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("DetalleEstilos", "Instituto", new {identificador = item.Identificador})" class="btn btn-primary">Detalles</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+    if (item.NomEstilo == "Karate")
+    {
+        <div class="card" style="border: solid; margin-top: 10px;" itemscope itemtype="http://schema.org/Product">
+            <div class="d-flex justify-content-center">
+                <img src="~/img/karate.jpg" class="card-img-top img-fluid" style="max-width: 450px; max-height: 500px;" alt="..." itemprop="image">
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr style="background-color: #FF0000;">
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Estilo</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="d-flex justify-content-center">
+                                <h2>Descripción</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <h2>Efectividad</h2>
+                        </th>
+                        <th>
+
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h3 itemprop="name">@Html.DisplayFor(modelItem => item.NomEstilo)</h3>
+                        </td>
+                        <td>
+                            <h3 itemprop="familyName">@Html.DisplayFor(modelItem => item.DesEstilo)</h3>
+                        </td>
+                        <td>
+                            <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                                <h3><span itemprop="ratingValue">Su efectividad al usarse en combate es </span> (<span itemprop="reviewCount">7</span>)</h3>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("DetalleEstilos", "Instituto", new {identificador = item.Identificador})" class="btn btn-primary">Detalles</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+}

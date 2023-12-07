@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP/"
+     xml:base="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:InstitutoDefensaP="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#"
+     xmlns:InstitutoDefensaPersonal="http://www.semanticweb.org/stwar/ontologies/2023/4/InstitutoDefensaPersonal#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Cuenta_con -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Cuenta_con">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Enseña -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Enseña">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Es_Enseñado_Por"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Es_Enseñado_Por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Es_Enseñado_Por">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Es_Practicado_Por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Es_Practicado_Por">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Practica"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Practica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Practica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#SeEnfocaEn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#SeEnfocaEn">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Tiene_Un"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Tiene_Un -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Tiene_Un">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Tienen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Tienen">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Apellido -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Apellido">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Biografia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Biografia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#CatNombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#CatNombre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Edad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Edad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#EstiloDescripcion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#EstiloDescripcion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#EstiloNombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#EstiloNombre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodosnom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodosnom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Nivelesnom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Nivelesnom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Nombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Nombre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#NumIdentificacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#NumIdentificacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Sexo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Sexo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Practica"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Instituto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Cuenta_con"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Es_Enseñado_Por"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#SeEnfocaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Tienen"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Instituto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Instituto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Instituto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Enseña"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Instituto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Instituto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Persona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Instituto"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:Metodosnom>Clase teorica</InstitutoDefensaP:Metodosnom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:Metodosnom>Clase practica</InstitutoDefensaP:Metodosnom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Met03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Tienen rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:Metodosnom>Clase enfrentamiento o simulacros</InstitutoDefensaP:Metodosnom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <InstitutoDefensaP:Practica rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Apellido>Sanchez</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Andres</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1117875965</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Masculino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <InstitutoDefensaP:Practica rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:Apellido>Lopez</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Andrea</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1119472642</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Femenino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <InstitutoDefensaP:Practica rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:Apellido>Martinez Cadavid</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Miguel</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1005478567</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Masculino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <InstitutoDefensaP:Practica rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:Apellido>Cardona Muriel</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Felipe</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1006875942</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Masculino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <InstitutoDefensaP:Practica rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Apellido>Molina Pacheco</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Fernando</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1117856423</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Masculino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <InstitutoDefensaP:Practica rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Apellido>Rojas Villa</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Jibran</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1006547896</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Masculino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum007">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <InstitutoDefensaP:Practica rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Apellido>Orozco Galeano</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Paula</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1042578963</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Femenino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Alumno"/>
+        <InstitutoDefensaP:Practica rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Apellido>Perdomo Lara</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Maria</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1007683942</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Femenino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria"/>
+        <InstitutoDefensaP:Tiene_Un rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Tiene_Un rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:CatNombre>Ataque</InstitutoDefensaP:CatNombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Categoria"/>
+        <InstitutoDefensaP:Tiene_Un rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Tiene_Un rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Tiene_Un rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:CatNombre>Defensa</InstitutoDefensaP:CatNombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <InstitutoDefensaP:Es_Enseñado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes001"/>
+        <InstitutoDefensaP:Es_Practicado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum006"/>
+        <InstitutoDefensaP:Es_Practicado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum008"/>
+        <InstitutoDefensaP:SeEnfocaEn rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat002"/>
+        <InstitutoDefensaP:EstiloDescripcion>El Krav Maga es un arte marcial de uso militar, y su único objetivo es terminar la pelea rápidamente. Por muchas personas, es considerado el mejor deporte de defensa personal.</InstitutoDefensaP:EstiloDescripcion>
+        <InstitutoDefensaP:EstiloNombre>Krav Maga</InstitutoDefensaP:EstiloNombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <InstitutoDefensaP:Es_Enseñado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes002"/>
+        <InstitutoDefensaP:Es_Practicado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum007"/>
+        <InstitutoDefensaP:SeEnfocaEn rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat001"/>
+        <InstitutoDefensaP:EstiloDescripcion>El Muay Thai es considerado como uno de los deportes de contacto más agresivos que hay. Sus técnicas incluyen patadas, rodillas, codos, puños, clinch, barridos y proyecciones usando la fuerza bruta. Al practicarlo, desarrollas la capacidad de reaccionar rápida y efectivamente a los ataques de tu oponente y devolver fuertes contragolpes.</InstitutoDefensaP:EstiloDescripcion>
+        <InstitutoDefensaP:EstiloNombre>Muay Thai</InstitutoDefensaP:EstiloNombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <InstitutoDefensaP:Es_Enseñado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes001"/>
+        <InstitutoDefensaP:Es_Practicado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum001"/>
+        <InstitutoDefensaP:Es_Practicado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum005"/>
+        <InstitutoDefensaP:SeEnfocaEn rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat002"/>
+        <InstitutoDefensaP:EstiloDescripcion>El Jiu-Jitsu Brasilenio es un excelente deporte de defensa personal. Requiere de agilidad, rapidez y destreza para realizar movimientos que, sin siquiera darse cuenta, tu oponente se encontrará en el suelo recibiendo una llave de sumisión y pidiéndote perdón.</InstitutoDefensaP:EstiloDescripcion>
+        <InstitutoDefensaP:EstiloNombre>Jiu-Jitsu Brasilenio</InstitutoDefensaP:EstiloNombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <InstitutoDefensaP:Es_Enseñado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes002"/>
+        <InstitutoDefensaP:Es_Practicado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum002"/>
+        <InstitutoDefensaP:SeEnfocaEn rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat001"/>
+        <InstitutoDefensaP:EstiloDescripcion>En el Kick Boxing se mezclan técnicas de otras disciplinas (como el muay thai y el karate) con el boxeo occidental, generando un deporte único que contiene lo mejor de ambos mundos. Las patadas y golpes del kick boxing son superiores a las de la mayoría de artes marciales; razón por la que para practicarlo se deben usar guantes, cascos, tobilleras, protectores de pecho (para mujeres), coquilla, guantillas, vendas, etc.</InstitutoDefensaP:EstiloDescripcion>
+        <InstitutoDefensaP:EstiloNombre>Kick Boxing</InstitutoDefensaP:EstiloNombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Metodos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <InstitutoDefensaP:Es_Enseñado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes001"/>
+        <InstitutoDefensaP:Es_Practicado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum003"/>
+        <InstitutoDefensaP:Es_Practicado_Por rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#alum004"/>
+        <InstitutoDefensaP:SeEnfocaEn rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#cat002"/>
+        <InstitutoDefensaP:EstiloDescripcion>El Karate como defensa personal tiene muchos puntos a favor, puesto que en cuanto a variedad de técnicas es de los más completos de las artes antiguas. Los golpes de un karateka son secos y muy potentes, pues en la práctica aprenden a transmitir la energía de movimiento de una parte del cuerpo a otro, y mantener rígido el resto del cuerpo para absorber la fuerza de reacción y no perder el equilibrio.</InstitutoDefensaP:EstiloDescripcion>
+        <InstitutoDefensaP:EstiloNombre>Karate</InstitutoDefensaP:EstiloNombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro"/>
+        <InstitutoDefensaP:Enseña rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Enseña rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Enseña rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:Apellido>Rojas Jimenez</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Biografia>Campeón del torneo anual de Karate, representante del instituto en Jiu-Jitsu y experto en defensa personal.</InstitutoDefensaP:Biografia>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Edwar</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1006783939</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Masculino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#maes002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Maestro"/>
+        <InstitutoDefensaP:Enseña rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Enseña rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:Apellido>Hernandez Marin</InstitutoDefensaP:Apellido>
+        <InstitutoDefensaP:Biografia>Maestro Internacional del deporte en Kick Boxing. Campeón Internacional en Muay Thai y maestro del deporte en Combate cuerpo a cuerpo​.</InstitutoDefensaP:Biografia>
+        <InstitutoDefensaP:Edad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</InstitutoDefensaP:Edad>
+        <InstitutoDefensaP:Nombre>Pedro</InstitutoDefensaP:Nombre>
+        <InstitutoDefensaP:NumIdentificacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1005785964</InstitutoDefensaP:NumIdentificacion>
+        <InstitutoDefensaP:Sexo>Masculino</InstitutoDefensaP:Sexo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:Nivelesnom>principiante</InstitutoDefensaP:Nivelesnom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:Nivelesnom>intermedio</InstitutoDefensaP:Nivelesnom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#nivel3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Estilo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#Niveles"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est01"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est02"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est03"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est04"/>
+        <InstitutoDefensaP:Cuenta_con rdf:resource="http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#est05"/>
+        <InstitutoDefensaP:Nivelesnom>avanzado</InstitutoDefensaP:Nivelesnom>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

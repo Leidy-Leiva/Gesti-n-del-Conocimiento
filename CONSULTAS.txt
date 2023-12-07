@@ -1,0 +1,62 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX Producto: <http://schema.org>
+PREFIX bd:<http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#>
+ 
+
+SELECT ?NombreMaestro ?NombreEstilo
+WHERE {
+  ?maestro bd:Enseña ?estilo .
+  ?maestro bd:Nombre ?NombreMaestro .
+  ?estilo bd:EstiloNombre ?NombreEstilo .
+}
+
+SELECT ?NombreMaestro ?NombreEstilo ?estilo ?maestro
+WHERE {
+  ?estilo bd:Es_Enseñado_Por ?maestro .
+  ?maestro bd:Nombre ?NombreMaestro .
+  ?estilo bd:EstiloNombre ?NombreEstilo .
+}
+
+SELECT ?NombreEstilo ?NombreCategoria
+WHERE {
+  ?estilo bd:SeEnfocaEn ?categoria .
+  ?estilo bd:EstiloNombre ?NombreEstilo .
+  ?categoria bd:CatNombre ?NombreCategoria
+}
+
+SELECT ?NombreCategoria ?NombreEstilo
+WHERE {
+  ?categoria bd:Tiene_Un ?estilo .
+  ?categoria bd:CatNombre ?NombreCategoria .
+  ?estilo bd:EstiloNombre ?NombreEstilo .
+}
+
+SELECT ?NombreAlumno ?NombreEstilo
+WHERE {
+  ?alumno bd:Practica ?estilo .
+  ?alumno bd:Nombre ?NombreAlumno .
+  ?estilo bd:EstiloNombre ?NombreEstilo .
+}
+ORDER BY ?NombreAlumno
+
+SELECT ?NombreEstilo ?NombreAlumno
+WHERE {
+  ?estilo bd:Es_Practicado_Por ?alumno .
+  ?estilo bd:EstiloNombre ?NombreEstilo .
+  ?alumno bd:Nombre ?NombreAlumno .
+}
+ORDER BY ?NombreEstilo
+
+
+
+
+
+
+
+
+
+
+
