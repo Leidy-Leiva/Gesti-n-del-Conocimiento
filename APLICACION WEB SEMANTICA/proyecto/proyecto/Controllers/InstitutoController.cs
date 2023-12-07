@@ -134,41 +134,6 @@ namespace proyecto.Controllers
         }
 
 
-
-        public ActionResult AlumnoEstilo()
-        {
-            // Se define una lista vacía para almacenar los estilos de lucha
-            List<Estilo> listaE = new List<Estilo>();
-            // Se realiza una consulta SPARQL al endpoint para obtener los datos de los estilos de lucha
-            SparqlResultSet resultado = endpoint.QueryWithResultSet(
-                   "PREFIX bd: <http://www.semanticweb.org/johana/ontologies/2023/4/InstitutoDefensaP#>" +
-                   "PREFIX da: <https://www.wowman.org/index.php?id=1&type=get#>" +
-                   "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
-                   "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
-                   "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
-                   "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
-                   "PREFIX xml: <http://www.w3.org/XML/1998/namespace/>" +
-                   "ELECT ? NombreAlumno ? NombreEstilo " +
-                   "where{ " +
-                        " ?alumno bd:Practica? estilo . " +
-                        "?alumno bd:Nombre? NombreAlumno . " +
-                        "?estilo bd:EstiloNombre? NombreEstilo ." +
-                    "} "+
-                     "ORDER BY ? NombreAlumno"
-                );
-
-            foreach (var result in resultado.Results)
-            {
-                Estilo est = new Estilo();
-                var dato = result.ToList();
-                est.NomEstilo = dato[0].Value.ToString();
-                est.DesEstilo = dato[1].Value.ToString();
-                est.Identificador = dato[2].Value.ToString();
-                listaE.Add(est);
-            }
-            return View(listaE);
-        }
-
         public ActionResult RegistrarAlumnos()
         {
             SparqlUpdateParser parser = new SparqlUpdateParser();

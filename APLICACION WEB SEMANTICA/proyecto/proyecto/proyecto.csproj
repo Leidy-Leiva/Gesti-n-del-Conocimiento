@@ -232,7 +232,6 @@
     <Content Include="Views\Instituto\MostrarAlumnos.cshtml" />
     <Content Include="Views\Instituto\RegistrarAlumnos.cshtml" />
     <Content Include="Views\Instituto\DetalleEstilos.cshtml" />
-    <Content Include="Views\Instituto\AlumnoVista.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
